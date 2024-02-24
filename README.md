@@ -1,6 +1,7 @@
 # Theory of Computation
 
-This repository contains my notes on the subject `Theory of Computation`
+This repository contains my notes on the subject `Theory of Computation` and will
+revolve around languages and grammars.
 
 ## Introduction to TOC
 
@@ -11,6 +12,15 @@ This repository contains my notes on the subject `Theory of Computation`
 
 - `Automata` enables scientists to understand how machines compute functions and
 solve problems
+
+- Computers have their own languages to communicate and do various tasks
+
+- To understand how they operate, we need to first understand their languages
+
+- TOC focuses on the concept of language rather than a language in particular
+
+- Therefore, this repo will mainly revolve around languages and how they bridge
+to different types of machines
 
 ## Commit Message Tags
 
