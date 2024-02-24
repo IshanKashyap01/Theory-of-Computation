@@ -48,3 +48,10 @@ More than one type of change is made to existing files; An update should contain
 a logical change made over file(s) that involves more than one of the above operations.
 The individual changes referring to the above tags, if need be, can added to the
 body.
+
+### Finish
+
+Marks the completion of the intent of a branch. A pull request for a topic branch
+must not be accepted unless one of its commits has this tag. A topic branch is made
+to add a topic. A branch made for any other purpose need not contain this tag to
+be merged.
