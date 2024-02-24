@@ -40,6 +40,10 @@ Starting configuration of the machine
 The states in which the automaton can end its operation by accepting the given
 string
 
+### Dead/Trap state
+
+It is an optional state from where the final state cannot be reached
+
 ## Properties of Finite Automata
 
 - If the machine encounters a symbol for which it has no states or if it reaches
@@ -48,3 +52,10 @@ the end of the string, it will halt
 - Therefore, Finite Automata are **always halting** machines
 
 - FAs have **finite states** and can only process a **finite input**
+
+- For every regular set, there are an infinite number of NFAs and DFAs
+
+- However, there can be *only one minimum DFA*
+
+- Moreover, for a regular language, its minimum DFA and minimum NFA may or may
+not be the same
