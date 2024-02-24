@@ -54,10 +54,12 @@ on the RHS
 
 - Accepted by **Finite Automata**, it is also known as **Regular Grammar**
 
+- Type 3 grammars generate **Regular Languages**
+
 - It is a subset of Type 2 grammar
 
 - Its production can be either in the form:
 
     1. $V \rightarrow VT^* | T^*$ known as *left regular grammar* or,
   
-    2. $V \rightarrow T^*V | T^*$ known as *right regular grammar*
+    2. $V \rightarrow T^\*V | T^\*$ known as *right regular grammar*

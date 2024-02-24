@@ -22,13 +22,13 @@ A finite, non-empty set of symbols
 
 - In general, a grammar contains the following:
 
-    1. **Terminals** `T` an alphabet
+    1. **Terminals** `T`: an alphabet
 
-    2. **Non-terminals** `V` a placeholder/variable
+    2. **Non-terminals** `V`: a placeholder/variable
 
-    3. **Production rules** `R` to produce words
+    3. **Production rules** `R`: produces words and sentences
 
-    4. **Start symbol** `S` a special non-terminal symbol that serves as a starting
+    4. **Start symbol** `S`: a special non-terminal symbol that serves as a starting
     point for generating strings.
 
 ## Operations
