@@ -12,7 +12,7 @@ changes its state based on the current symbol
 
 - An FA can be either deterministic or non-deterministic
 
-## Elements of Automata
+## Elements of Finite Automata
 
 ### States (`Q`)
 
@@ -38,7 +38,7 @@ Starting configuration of the machine
 ### Accepting states (`F`)
 
 The states in which the automaton can end its operation by accepting the given
-string
+string. There can be 0 or more accepting states
 
 ### Dead/Trap state
 
@@ -46,16 +46,16 @@ It is an optional state from where the final state cannot be reached
 
 ## Properties of Finite Automata
 
-- If the machine encounters a symbol for which it has no states or if it reaches
+1. If the machine encounters a symbol for which it has no states or if it reaches
 the end of the string, it will halt
 
-- Therefore, Finite Automata are **always halting** machines
+    - Therefore, Finite Automata are **always halting** machines
 
-- FAs have **finite states** and can only process a **finite input**
+2. FAs have **finite states** and can only process a **finite input**
 
-- For every regular set, there are an infinite number of NFAs and DFAs
+3. For every regular set, there are an infinite number of NFAs and DFAs
 
-- However, there can be *only one minimum DFA*
+4. There can be *more than one minimum NFA* but *only one minimum DFA*
 
-- Moreover, for a regular language, its minimum DFA and minimum NFA may or may
+5. Moreover, for a regular language, its minimum DFA and minimum NFA may or may
 not be the same
