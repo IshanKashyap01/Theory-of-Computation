@@ -65,3 +65,8 @@ Marks the completion of the intent of a branch. A pull request for a topic branc
 must not be accepted unless one of its commits has this tag. A topic branch is made
 to add a topic. A branch made for any other purpose need not contain this tag to
 be merged.
+
+### Refactor
+
+Files are internally unchanged but their locations are changed. This can include
+renaming parent directories and/or rearranging files into new or existing directories
