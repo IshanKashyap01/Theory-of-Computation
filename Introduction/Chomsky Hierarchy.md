@@ -18,7 +18,7 @@
 
 - Type 0 grammars generate **Recursively Enumerable Languages**
 
-- Grammar production is in the form: $S \rightarrow (V + T)^* V (V + T)^*$
+- Grammar production is in the form: $(V + T)^+ \rightarrow (V + T)^*$
 
 - There must be at least one variable on the LHS of the productions
 
