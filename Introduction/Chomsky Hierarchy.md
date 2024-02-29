@@ -62,4 +62,4 @@ on the RHS
 
     1. $V \rightarrow VT^* | T^*$ known as *left regular grammar* or,
   
-    2. $V \rightarrow T^\*V | T^\*$ known as *right regular grammar*
+    2. $V \rightarrow T^* V | T^ *$ known as *right regular grammar*
