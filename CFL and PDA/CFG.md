@@ -1,6 +1,6 @@
-# Context-Free Grammars
+# Context-Free Grammar
 
-- Context-free grammar represents context-free languages
+- Context-free grammars represents context-free languages
 
 - CFG production is in the form: $V \rightarrow (V + T)^*$
 
