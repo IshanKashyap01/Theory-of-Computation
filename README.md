@@ -70,3 +70,14 @@ be merged.
 
 Files are internally unchanged but their locations are changed. This can include
 renaming parent directories and/or rearranging files into new or existing directories
+
+## Known Issues
+
+## LaTeX
+
+LaTeX doesn't work on GitHub mobile and its syntax in GitHub works differently
+than VS Code's built-in preview mechanism. Sometimes, they're outright opposite
+of each other. In such cases, VS Code will bear precedence. Therefore, whoever
+wishes to use this repository is recommended to clone it locally and use VS Code's
+built-in preview feature to read the correct syntax. Alternatively, you can check
+out the file in raw form to understand the intended results.

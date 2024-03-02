@@ -12,7 +12,9 @@ A finite, non-empty set of symbols
 
 ## Strings/Words (`w`)
 
-- A finite sequence of symbols from some alphabet
+- A string is a sequence of symbols from some alphabet
+
+- There could be any number of strings for a given language (from 0 to infinity)
 
 - Its length is denoted by `|w|`
 
@@ -55,7 +57,7 @@ null
 
 ## Language
 
-- A language is a subset of the $\Sigma^*$
+- A language is a subset of the $\Sigma^*$ over a given alphabet $\Sigma$
 
 - A language formed over $\Sigma$ can be either finite or infinite
 
