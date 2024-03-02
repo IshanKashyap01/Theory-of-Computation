@@ -73,7 +73,7 @@ renaming parent directories and/or rearranging files into new or existing direct
 
 ## Known Issues
 
-## LaTeX
+### LaTeX
 
 LaTeX doesn't work on GitHub mobile and its syntax in GitHub works differently
 than VS Code's built-in preview mechanism. Sometimes, they're outright opposite
