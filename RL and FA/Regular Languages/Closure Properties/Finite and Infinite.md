@@ -34,7 +34,7 @@ set that aren't in the original set
 
 - Whereas, the complement of an infinite language may or may not be infinite
 
-  - This is because $\infin - \infin$ cannot be determined
+  - This is because &infin; - &infin; cannot be determined
 
 - Therefore, the complement for both finite and infinite languages *may or may*
 *not be closed*
