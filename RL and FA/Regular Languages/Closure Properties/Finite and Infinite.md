@@ -4,26 +4,26 @@
 
 The resultant of two *finite* languages *may or may not be finite*. For ex:
 
-1. Consider $L_1 = \{a\}$ and $L_2 = \{b\}$
+1. Consider $L_1 =$ { $a$ } and $L_2 =$ { $b$ }
 
-    - $L_1 \cup L_2 = \{a, b\}$ which is also a finite language
+    - $L_1 \cup L_2 =$ { $a, b$ } which is also a finite language
 
-2. Now consider $L_1 = \{a^n | n \ge 0\}$ and $L_2 = \{b^n | n \ge 0\}$
+2. Now consider $L_1 =$ { $a^n | n \ge 0$ } and $L_2 =$ { $b^n | n \ge 0$ }
 
-    - $L_1 \cup L_2 = \{a^nb^n | n \ge 0\}$ which is an infinite language
+    - $L_1 \cup L_2 =$ { $a^nb^n | n \ge 0$ } which is an infinite language
 
 ## Intersection [✅❌]
 
 The intersection of two *infinite* languages *may or may not be infinite*. For
 ex:
 
-1. Consider $L_1 = \{a^nb^n | n \ge 0\}$ and $L_2 = \{b^nc^n | n \ge 0\}$
+1. Consider $L_1 =$ { $a^nb^n | n \ge 0$ } and $L_2 =$ { $b^nc^n | n \ge 0$ }
 
-    - $L_1 \cap L_2 = \{b^n | n \ge 0\}$ which is infinite
+    - $L_1 \cap L_2 =$ { $b^n | n \ge 0$ } which is infinite
 
-2. Now consider $L_1 = \{a^n | n \ge 0\}$ and $L_2 = \{b^n | n \ge 0\}$
+2. Now consider $L_1 =$ { $a^n | n \ge 0$ } and $L_2 =$ { $b^n | n \ge 0$ }
 
-    - $L_1 \cap L_2 = \{\}$ which is finite
+    - $L_1 \cap L_2 =$ { } which is finite
 
 ## Complement [❌❌]
 

@@ -6,13 +6,13 @@ Finite Automata
 - Therefore, a non-regular language can neither be expressed by a regex/RG, nor
 recognized by an FA
 
-- For ex. $\{a^mb^n | m, n \ge 0 \}$ is an RL as:
+- For ex. { $a^mb^n | m, n \ge 0$ } is an RL as:
 
   - `m` and `n` are independent of each other, and
 
   - The language can be represented as a regex like $(a + b)^*$
 
-- However, $\{a^mb^n | m, n \ne 0 \}$ is not an RL as:
+- However, { $a^mb^n | m, n \ne 0$ } is not an RL as:
 
   - `m` and `n` are co-dependents of each other,
 
