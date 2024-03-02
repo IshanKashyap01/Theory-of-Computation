@@ -2,7 +2,7 @@
 
 - Unlike FA, some CFL problems can *only* be solved by NPDAs and not DPDAs
 
-- For example, {$ww^R | w \in$ {$a, b$}*} cannot be recognized by a DPDA as it
+- For example, { $ww^R | w \in$ { $a, b$ }*} cannot be recognized by a DPDA as it
 requires more than one decision for a symbol
 
 ## Deterministic Pushdown Automata
