@@ -9,7 +9,7 @@
 - However, the grammar represented by an RLG can also be written as an LLG and
 vice-versa
 
-- For instance, the RLG $S \rightarrow{aS} | b$ can be transformed into and from the LLG:
+- For instance, the RLG $S \rightarrow{aS}\ |\ b$ can be transformed into and from the LLG:
 
     $S \rightarrow{Ba}$
 
